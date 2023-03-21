@@ -9,7 +9,7 @@
         http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
         http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
 
-    <changeSet id="2023-02-24--01-create-cryptocurrency-table" author="eg">
+    <changeSet id="2023-02-24--01-create-cryptocurrency-table" author="yawkar">
         <createTable tableName="cryptocurrency_record">
             <column name="id" type="BIGINT" autoIncrement="true">
                 <constraints  nullable="false"  primaryKey="true"  unique="true"/>
